@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2? family= Fugaz+One & family= Nunito & family= Poppins:wght@300 & display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Fugaz One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    transition: all 300ms;
+}
+
+.box {
+    height: 12vh;
+    margin: 0 auto;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.baslik-1 {background: rgb(24,24,255);
+    background: radial-gradient(circle, rgba(24,24,255,0.7889749649859944) 26%, rgba(7,255,0,0.8646052170868348) 100%);
+    color: #fff;
+}
+
+.cssbuttons-io-button {
+    background: rgb(24, 24, 255);
+    background: linear-gradient(146deg, rgba(24, 24, 255, 0.7889749649859944) 26%, rgba(7, 255, 0, 0.8646052170868348) 100%);
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    margin-left: auto;
+}
+
+.cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #02f7ff;
+    right: 0.3em;
+    transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: grey;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+}
+.whatsapp{
+    background-color: #25D366;
+    color: #fff;
+    width: 12%;
+    overflow: hidden;
+    height: 9vh;
+    position: fixed;
+    bottom: 3vh;
+    right: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.whatsapp:hover , .whatsapp:focus{
+    width: 90%;
+    height: 10vh;
+    font-size: 3rem;
+    padding: 0 20px;
+}
+.yazi{
+    margin-left: 9px;
+    display: none;
+}
+.whatsapp:hover .yazi , .whatsapp:focus .yazi{
+    display: block;
+}
