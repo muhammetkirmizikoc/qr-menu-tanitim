@@ -5,13 +5,15 @@ html {
 }
 
 body {
-    font-family: 'Fugaz One', sans-serif;
-    font-family: 'Nunito', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 * {
     transition: all 300ms;
+    font-family: 'Fugaz One', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .box {
@@ -22,8 +24,9 @@ body {
     align-items: center;
 }
 
-.baslik-1 {background: rgb(24,24,255);
-    background: radial-gradient(circle, rgba(24,24,255,0.7889749649859944) 26%, rgba(7,255,0,0.8646052170868348) 100%);
+.baslik-1 {
+    background: rgb(24, 24, 255);
+    background: radial-gradient(circle, rgba(24, 24, 255, 0.7889749649859944) 26%, rgba(7, 255, 0, 0.8646052170868348) 100%);
     color: #fff;
 }
 
@@ -81,10 +84,11 @@ body {
 .cssbuttons-io-button:active .icon {
     transform: scale(0.95);
 }
-.whatsapp{
+
+.whatsapp {
     background-color: #25D366;
     color: #fff;
-    width: 12%;
+    width: 15%;
     overflow: hidden;
     height: 9vh;
     position: fixed;
@@ -97,16 +101,20 @@ body {
     border-radius: 15px;
     text-decoration: none;
 }
-.whatsapp:hover , .whatsapp:focus{
+
+.whatsapp:hover,
+.whatsapp:focus {
     width: 90%;
     height: 10vh;
-    font-size: 3rem;
     padding: 0 20px;
 }
-.yazi{
+
+.yazi {
     margin-left: 9px;
     display: none;
 }
-.whatsapp:hover .yazi , .whatsapp:focus .yazi{
+
+.whatsapp:hover .yazi,
+.whatsapp:focus .yazi {
     display: block;
 }
